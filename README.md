@@ -71,6 +71,13 @@ go build -o vps-fleet ./cmd/vps-fleet
 ./vps-fleet
 ```
 
+On Windows the file name needs the `.exe` ending, otherwise Windows will not run it:
+
+```powershell
+go build -o vps-fleet.exe ./cmd/vps-fleet
+.\vps-fleet.exe
+```
+
 On first start vps-fleet creates an example `~/.config/vps-fleet/config.yaml`.
 Add your servers:
 
