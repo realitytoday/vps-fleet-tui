@@ -1,0 +1,33 @@
+# Build output
+*.exe
+*.exe~
+/vps-fleet
+/dist/
+/bin/
+
+# Go
+*.test
+*.out
+coverage.*
+go.work
+go.work.sum
+
+# Local configuration and credentials (the app reads these from ~/.config/vps-fleet)
+config.yaml
+settings.yaml
+profiles/
+*.pem
+*.key
+id_*
+.env
+
+# Leftovers of interrupted transfers
+*.vps-fleet-part
+
+# Editors and OS files
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db

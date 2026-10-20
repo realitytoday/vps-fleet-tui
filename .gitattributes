@@ -1,0 +1,3 @@
+# Keep LF line endings in the repo and working copy (gofmt uses LF)
+* text=auto eol=lf
+*.exe binary
